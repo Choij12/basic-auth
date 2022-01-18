@@ -8,3 +8,5 @@ const PORT = process.env.PORT || 3000;
 db.sync()
   .then(() => server.start(PORT))
   .catch((err) => console.log(err));
+
+  
